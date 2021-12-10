@@ -1,7 +1,7 @@
 import { transpile } from './transpiler';
 import { Num, Op } from './symbols';
 
-it('parses the given string', () => {
+it('transpiles the given string to javascript expression', () => {
   expect(transpile({
     value: 'sum',
     type: Op,
