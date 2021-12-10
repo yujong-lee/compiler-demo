@@ -15,7 +15,7 @@ it('transpiles the given string to javascript expression', () => {
         value: 2,
       },
     ],
-  })).toEqual(
+  })).toBe(
     '(1 + 2)',
   );
 });
